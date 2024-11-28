@@ -37,3 +37,13 @@ The state diagram for the syringe pump system is as follows:
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/syringe-pump.git
+
++------------------+      +-----------------+      +------------------+
+| User Interface   | ---> | Microcontroller | ---> | Motor Controller |
++------------------+      +-----------------+      +------------------+
+          |                        |                     |
+    +-----v-----+            +-----v-----+           +-----v-----+
+    | Pressure  |            | Sensors   |           | Stepper   |
+    | Sensors   |            | (Flow,    |           | Motor     |
+    | (Optional)|            | Pressure) |           | Driver    |
+    +-----------+            +-----------+           +-----------+
