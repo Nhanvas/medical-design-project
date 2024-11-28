@@ -37,3 +37,9 @@ The state diagram for the syringe pump system is as follows:
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/syringe-pump.git
+
+## 👥 Team Members
+**Nguyen Quoc Trung Nhan
+**Au Doan Doan Truc
+**Pham Hoang Anh Thu
+**Kim Phuong Thuy
