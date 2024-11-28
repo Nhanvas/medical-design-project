@@ -1,40 +1,30 @@
-# Syringe Pump Final Project
+# Syringe Pump Project
 
-## 📌 Introduction
-The Syringe Pump is a precision device used to control the delivery of fluids at controlled rates, often used in medical, laboratory, and research environments. This project involves designing and developing a syringe pump system that can provide accurate, repeatable delivery of fluids for various applications. Our goal is to create a user-friendly and efficient syringe pump system using microcontroller-based control, sensors, and actuators for fluid dispensing.
+## 📌 Introduction  
+The Syringe Pump project aims to develop a device that can precisely control the flow of fluids by using a syringe. These pumps are typically used in medical, laboratory, and research settings for delivering medications, chemicals, or biological substances at a controlled rate. The goal of this project is to design a syringe pump that ensures accurate dosing, adjustable flow rates, and user-friendly interface.
 
-## 📊 Project Flow Chart
-Below is a simplified flowchart of the syringe pump operation:
-1. **User sets the desired flow rate and volume.**
-2. **System verifies settings and checks for syringe installation.**
-3. **Pump motor drives syringe to deliver fluid at the specified rate.**
-4. **Feedback sensors monitor flow accuracy and detect errors (e.g., occlusions).**
-5. **System stops automatically after delivering the programmed volume.**
+This project focuses on the automation of the syringe pump, allowing users to control parameters such as flow rate, volume, and time duration. The system will be designed with safety features to prevent over-pressurization, air bubbles, or other potential failures.
 
-## 🖧 Block Diagram
-The system comprises the following blocks:
-- **User Interface (UI):** Allows users to input desired parameters and view status.
-- **Microcontroller:** Processes user input and controls the pump motor.
-- **Motor Driver:** Drives the motor to operate the syringe.
-- **Feedback Sensors:** Ensure precision and detect potential errors.
-- **Power Supply:** Provides necessary power to the components.
+## 📊 Project Flow Chart  
+Below is a simplified flowchart of the syringe pump operation:  
+![Flow Chart](D:/Code/2B/1.jpg)
 
-## 🎭 State Diagram
-The state diagram for the syringe pump system is as follows:
-1. **Idle State:** System awaits user input.
-2. **Setting State:** User configures parameters like flow rate and volume.
-3. **Running State:** Pump operates based on the input parameters.
-4. **Error State:** System pauses to alert users of any errors (e.g., occlusion).
-5. **Complete State:** Pump stops after delivering the programmed volume.
+## 🖧 Block Diagram  
+The system comprises the following blocks:  
+- **User Interface (UI):** Allows users to input desired parameters and view status.  
+- **Microcontroller:** Processes user input and controls the pump motor.  
+- **Motor Driver:** Drives the motor to operate the syringe.  
+- **Feedback Sensors:** Ensure precision and detect potential errors.  
+- **Power Supply:** Provides necessary power to the components.  
 
-## 🚀 Getting Started
+![Block Diagram](D:/Code/2B/2.jpg)
 
-### Prerequisites
-- A basic understanding of electronics and microcontrollers.
-- Familiarity with programming languages like C/C++ (for Arduino).
+## 🎭 State Diagram  
+The state diagram for the syringe pump system is as follows:  
+- **Idle State:** System awaits user input.  
+- **Setting State:** User configures parameters like flow rate and volume.  
+- **Running State:** Pump operates based on the input parameters.  
+- **Error State:** System pauses to alert users of any errors (e.g., occlusion).  
+- **Complete State:** Pump stops after delivering the programmed volume.
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/syringe-pump.gi
-  
+![State Diagram](D:/Code/2B/3.jpg)
