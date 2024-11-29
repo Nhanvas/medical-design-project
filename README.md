@@ -1,33 +1,39 @@
+# Assignment-Project
 # Syringe Pump Project
-
-## Group Members
-1. Nguyễn Quốc Trung Nhân (BEBEIU22184)
-2. Âu Đào Đoan Trúc (BEBEIU22156)
-3. Kim Phương Thùy (BEBEIU22283)
-4. Phạm Hoàng Anh Thư (BEBEIU22276)
-
+## Members
+| Name | ID | 
+| -------- | -------- |
+| Nguyễn Quốc Trung Nhân | BEBEIU22184 |
+| Âu Đào Đoan Trúc | BEBEIU22156 |
+| Kim Phương Thùy | BEBEIU22283 |
+| Phạm Hoàng Anh Thư | BEBEIU22276 |
 ## Introduction
-Our project focuses on designing a **syringe pump** for medical applications. The device is intended to deliver precise volumes of fluids at controlled rates, crucial in treatments such as IV therapy and medication infusion. Key features include:
-- **Adjustable flow rates** for various medical needs.
-- **User-friendly interface** for medical professionals.
-- **Compact design** for portability.
+The Syringe Pump project aims to develop a device that can precisely control the flow of fluids by using a syringe. These pumps are typically used in medical, laboratory, and research settings for delivering medications, chemicals, or biological substances at a controlled rate. The goal of this project is to design a syringe pump that ensures accurate dosing, adjustable flow rates, and a user-friendly interface.
+
+This project focuses on the automation of the syringe pump, allowing users to control parameters such as flow rate, volume, and time duration. The system will be designed with safety features to prevent over-pressurization, air bubbles, or other potential failures.
+
+
+## Key components to design a precise syringe pump
+- **Microcontroller**
+- **Stepper Motor**
+- **Motor Driver**
+- **Syringe and Syringe Holder**
+- **Sensors**
+- **Power Supply**
+- **User Interface**
+
 
 ## Flow Chart
-The operational workflow of the syringe pump is depicted below:
-![Flow Chart](flowchart.jpg)
+Below is a simplified flowchart of the syringe pump operation
+![Flow chart](Flowchart.jpg)
 
 ## Block Diagram
-The system's core components and interactions are outlined here:
-![Block Diagram](blockdiagram.jpg).
+The system comprises the following blocks
+![Block diagram](blockdiagram.jpg)
 
 ## State Diagram
-The various operational states of the syringe pump are illustrated as follows:
-![State Diagram](statediagram.jpg)
+The state diagram for the syringe pump system is as follows
+![State diagram](statediagram.jpg)
 
-## Repository
-This repository contains:
-- **Design documentation**
-- **Code for system control**
-- **CAD files for the syringe pump design**
-
----
+## Acknowledgements
+This project was done as part of a university group assignment to understand and build an automated fluid dispensing system.
