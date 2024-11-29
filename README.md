@@ -1,30 +1,33 @@
-# Syringe Pump Project
+# Syringe Pump Design Project
 
-## 📌 Introduction  
-The Syringe Pump project aims to develop a device that can precisely control the flow of fluids by using a syringe. These pumps are typically used in medical, laboratory, and research settings for delivering medications, chemicals, or biological substances at a controlled rate. The goal of this project is to design a syringe pump that ensures accurate dosing, adjustable flow rates, and user-friendly interface.
+## Group Members
+1. Nguyễn Quốc Trung Nhân (BEBEIU22184)
+2. Âu Đào Đoan Trúc (BEBEIU22156)
+3. Kim Phương Thùy (BEBEIU22283)
+4. Phạm Hoàng Anh Thư (BEBEIU22276)
 
-This project focuses on the automation of the syringe pump, allowing users to control parameters such as flow rate, volume, and time duration. The system will be designed with safety features to prevent over-pressurization, air bubbles, or other potential failures.
+## Introduction
+Our project focuses on designing a **syringe pump** for medical applications. The device is intended to deliver precise volumes of fluids at controlled rates, crucial in treatments such as IV therapy and medication infusion. Key features include:
+- **Adjustable flow rates** for various medical needs.
+- **User-friendly interface** for medical professionals.
+- **Compact design** for portability.
 
-## 📊 Project Flow Chart  
-Below is a simplified flowchart of the syringe pump operation:  
-![Flow Chart](D:/Code/2B/1.jpg)
+## Flow Chart
+The operational workflow of the syringe pump is depicted below:
+![Flow Chart]([path-to-your-flowchart-image](https://github.com/Nhanvas/medical-design-project/blob/main/Block%20Diagram.jpg))
 
-## 🖧 Block Diagram  
-The system comprises the following blocks:  
-- **User Interface (UI):** Allows users to input desired parameters and view status.  
-- **Microcontroller:** Processes user input and controls the pump motor.  
-- **Motor Driver:** Drives the motor to operate the syringe.  
-- **Feedback Sensors:** Ensure precision and detect potential errors.  
-- **Power Supply:** Provides necessary power to the components.  
+## Block Diagram
+The system's core components and interactions are outlined here:
+![Block Diagram](path-to-your-blockdiagram-image)
 
-![Block Diagram](D:/Code/2B/2.jpg)
+## State Diagram
+The various operational states of the syringe pump are illustrated as follows:
+![State Diagram](path-to-your-statediagram-image)
 
-## 🎭 State Diagram  
-The state diagram for the syringe pump system is as follows:  
-- **Idle State:** System awaits user input.  
-- **Setting State:** User configures parameters like flow rate and volume.  
-- **Running State:** Pump operates based on the input parameters.  
-- **Error State:** System pauses to alert users of any errors (e.g., occlusion).  
-- **Complete State:** Pump stops after delivering the programmed volume.
+## Repository
+This repository contains:
+- **Design documentation**
+- **Code for system control**
+- **CAD files for the syringe pump design**
 
-![State Diagram](D:/Code/2B/3.jpg)
+---
