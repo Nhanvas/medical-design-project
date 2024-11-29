@@ -22,7 +22,7 @@ The system's core components and interactions are outlined here:
 
 ## State Diagram
 The various operational states of the syringe pump are illustrated as follows:
-![State Diagram](statediagram.png)
+![State Diagram](statediagram.jpg)
 
 ## Repository
 This repository contains:
