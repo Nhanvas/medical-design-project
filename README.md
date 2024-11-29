@@ -18,7 +18,7 @@ The operational workflow of the syringe pump is depicted below:
 
 ## Block Diagram
 The system's core components and interactions are outlined here:
-![Block Diagram](main/block_diagram.png)
+![Block Diagram](main/Block Diagram.jpg)
 
 ## State Diagram
 The various operational states of the syringe pump are illustrated as follows:
