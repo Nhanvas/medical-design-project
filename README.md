@@ -14,15 +14,15 @@ Our project focuses on designing a **syringe pump** for medical applications. Th
 
 ## Flow Chart
 The operational workflow of the syringe pump is depicted below:
-![Flow Chart]([path-to-your-flowchart-image](https://github.com/Nhanvas/medical-design-project/blob/main/Block%20Diagram.jpg))
+![Flow Chart](images/flowchart.png)
 
 ## Block Diagram
 The system's core components and interactions are outlined here:
-![Block Diagram](path-to-your-blockdiagram-image)
+![Block Diagram](images/block_diagram.png)
 
 ## State Diagram
 The various operational states of the syringe pump are illustrated as follows:
-![State Diagram](path-to-your-statediagram-image)
+![State Diagram](images/state_diagram.png)
 
 ## Repository
 This repository contains:
