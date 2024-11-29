@@ -14,7 +14,7 @@ Our project focuses on designing a **syringe pump** for medical applications. Th
 
 ## Flow Chart
 The operational workflow of the syringe pump is depicted below:
-![Flow Chart](flowchart.png)
+![Flow Chart](flowchart.jpg)
 
 ## Block Diagram
 The system's core components and interactions are outlined here:
