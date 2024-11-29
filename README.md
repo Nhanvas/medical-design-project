@@ -1,4 +1,4 @@
-# Syringe Pump Design Project
+# Syringe Pump Project
 
 ## Group Members
 1. Nguyễn Quốc Trung Nhân (BEBEIU22184)
