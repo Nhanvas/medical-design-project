@@ -25,7 +25,7 @@ This project focuses on the automation of the syringe pump, allowing users to co
 
 ## Flow Chart
 Below is a simplified flowchart of the syringe pump operation
-![Flow chart](Flowchart.jpg)
+![Flow chart](flowchart.jpg)
 
 ## Block Diagram
 The system comprises the following blocks
